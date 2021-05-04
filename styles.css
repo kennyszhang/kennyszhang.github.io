@@ -1,0 +1,58 @@
+/*css for html*/
+body {
+    background-color: #171717;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.row {   
+    display: flex;
+    justify-content: space-evenly;
+}
+.header {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#profile {
+    width: 240px;
+    height: 240px;
+}
+.mid {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.indent {
+    margin-left: 2em;
+    margin-bottom: 4px;
+}
+.buttons p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+a {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #808080;
+}
+.buttons {
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-around;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 40px;
+}
+.name {
+    position: relative;
+    animation-name: name;
+    animation-duration: 2s;
+}
+@keyframes name {
+  0%   {left:1000px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
