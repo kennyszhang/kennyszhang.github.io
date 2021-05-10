@@ -18,8 +18,8 @@ body {
     height: 240px;
 }
 .mid {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .indent {
     margin-left: 2em;
@@ -36,8 +36,8 @@ a:hover {
     color: #808080;
 }
 .buttons {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 200px;
+    margin-right: 200px;
     justify-content: space-around;
 }
 .footer {
