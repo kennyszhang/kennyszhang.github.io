@@ -2,50 +2,66 @@ body {
     background-color: #171717;
     color: #FFFFFF;
     font-family: "Calibri";
-    font-size: 22px;
-}
-.row {   
     display: flex;
-    justify-content: space-evenly;
+    width: 95%;
+    height: 100vh;
+    justify-content: space-between;
+    margin: 0px auto;
 }
-.header {
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-#profile {
-    width: 240px;
-    height: 240px;
-}
-.mid {
-    margin-left: 200px;
-    margin-right: 200px;
-}
-.indent {
-    margin-left: 2em;
-    margin-bottom: 4px;
-}
-.buttons p {
-    cursor: pointer;
-    text-decoration: underline;
-}
+
 a {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
-a:hover {
-    color: #808080;
+
+.contact a {
+  margin-right: 0.5vw;
 }
-.buttons {
-    margin-left: 200px;
-    margin-right: 200px;
-    justify-content: space-around;
+
+.container {
+  width: 30%;
 }
-.name {
-    position: relative;
-    animation-name: name;
-    animation-duration: 2s;
+
+img {
+	vertical-align: bottom;
 }
-@keyframes name {
-  0%   {left:1000px; top:0px;}
-  100%  {left:0px; top:0px;}
+
+.bottom {
+	vertical-align: top;
+}
+
+.wrapper {
+  padding-top: 1.75rem;
+	width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 85%;
+	}
+	
+  .container {
+    width: 100%;
+  }
+	
+  .wrapper {
+    display: none;
+  }
+	
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: start;
+    padding-bottom: 3vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  img {
+    width: 85%;
+  }
+	
+  .wrapper {
+    width: 60%;
+  }
 }
